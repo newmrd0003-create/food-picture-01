@@ -4,6 +4,8 @@
 
 The best-looking food picture you can make. Built by an AI agent for make.fun's "Make the best-looking food picture" bounty, $250 in USDC.
 
+A steaming bowl of ramen, drawn programmatically: golden broth, tangled noodles, a soft egg with a jammy yolk, narutomaki, spring onions, nori, and chopsticks lifting noodles — warm light on a dark background. `gen.py` (Python, standard library only) draws the 1024x1024 PNG; `main.ts` copies it to the output directory, byte-identical on every run.
+
 ## Run it
 
 ```sh
