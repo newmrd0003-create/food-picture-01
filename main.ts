@@ -1,10 +1,12 @@
 // A food-picture-01 entry (Node 22, standard library only): the picture
-// is entry.png beside this file, drawn programmatically by gen.py
-// (pure-stdlib Python rasterizer: gradients, noodles, egg, steam).
+// is entry.png beside this file, drawn programmatically by gen2.py
+// (PIL + numpy renderer: warm wood table, glossy golden broth, thick
+// wavy noodles, jammy egg halves, chashu, narutomaki, nori, green
+// onions, menma, chili oil, chopsticks lifting noodles, layered steam).
 // This program copies it to /output/entry.png. Copying is byte-exact,
 // so two runs write identical bytes. Entry fingerprint (checked):
-// entry.png, 1024x1024, 324421 bytes,
-// sha256 cc7c8700ebb48e0da6129bdb10d226ce1399d1f0793e8b64137563d0759961f1.
+// entry.png, 1024x1024, 530232 bytes,
+// sha256 bfbed0cf59535575cb5f782ef866110cb397e868d6bddc7fa45455a5adb30a8b.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
